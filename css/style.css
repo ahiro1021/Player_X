@@ -1,0 +1,815 @@
+@charset "utf-8";
+body {
+    /* [disabled]-webkit-box-sizing: border-box; */
+    /* [disabled]-moz-box-sizing: border-box; */
+    /* [disabled]box-sizing: border-box; */
+    margin: 0;
+    /* [disabled]display: block; */
+}
+.wrapper {
+	border-width: 4px 8px 4px 8px;
+    border-style: solid;
+    border-color: #fff;
+}
+.LOGO-PIC {
+    position: absolute;
+    margin-top: 25%;
+    z-index: 6;
+    width: 45%;
+    height: 30%;
+    top: 1PX;
+}
+
+
+.title {
+    margin: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu-item {
+    float: right;
+
+
+}
+a:link  {
+    font-family: "華康粗黑體";
+    color: #000000;
+    text-decoration: none;
+    font-size: medium;
+
+}
+
+
+
+
+.logo-text  {
+    font-size: x-large;
+    font-family: "華康細黑體";
+}
+.b-img {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    height: auto;
+    margin-left: 0px;
+}
+.board-bg {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    background-color: #000000;
+    font-weight: 400;
+    width: 50%;
+    height: 30%;
+    opacity: 0.5;
+    z-index: 5;
+    position: absolute;
+    top: 1px;
+    margin-top: 25%;
+    margin-left: 10%;
+    padding-bottom: 0px;
+    padding-top: 0%;
+}
+.bg-line {
+    width: 120%;
+    margin-right: auto;
+    margin-left: 4.5%;
+    margin-bottom: auto;
+    height: 90%;
+    border: medium solid rgba(255,255,255,1.00);
+    position: absolute;
+    top: 1px;
+    margin-top: 2.5%;
+}
+
+.tilte-word {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    font-weight: 400;
+    width: 35%;
+    height: 30%;
+    z-index: 5;
+    position: absolute;
+    top: 1px;
+    margin-top: 25%;
+    margin-left: 10%;
+    padding-bottom: 0px;
+    padding-top: 4%;
+}
+
+.b1-word {
+    color: rgba(255,255,255,1.00);
+    font-family: "華康粗黑體";
+    font-size: small;
+    text-align: left;
+    margin-left: 72px;
+    letter-spacing: 6px;
+    width: 100%;
+    height: auto;
+}
+.b2-word {
+    color: rgba(255,255,255,1.00);
+    font-family: "華康粗黑體";
+    font-size: 85%;
+    text-align: left;
+    margin-left: 70px;
+    letter-spacing: 5px;
+    margin-top: -8px;
+    width: 100%;
+    height: auto;
+}
+.b3-word {
+    color: rgba(255,255,255,1.00);
+    font-family: "華康細黑體";
+    font-size: large;
+    text-align: left;
+    margin-left: 70px;
+}
+
+
+
+
+
+.footer {
+    height: auto;
+    width: 939px;
+    text-align: right;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    font-family: "華康中黑體";
+    margin-left: auto;
+    margin-right: auto;
+    color: #5B5877;
+}
+.t1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-style: none;
+}
+.t2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-style: none;
+}
+.theme {
+    background-color: #586377;
+    color: hsla(0,0%,100%,1.00);
+}
+
+
+
+
+.s1-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.s2-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.t1 td {
+    padding-right: 30px;
+    padding-left: 30px;
+    border-style: none;
+    padding-bottom: 0px;
+}
+
+
+.t2 td {
+    padding-right: 30px;
+    padding-left: 30px;
+    border-style: none;
+}
+
+h5 {
+    color: #a7a7a7;
+    font-family: "華康中黑體";
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-family: "華康中黑體";
+    letter-spacing: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.t1-p {
+    font-family: "華康細黑體";
+    vertical-align: text-top;
+    font-size: 15px;
+
+
+}
+.t2-p {
+    font-family: "華康細黑體";
+    vertical-align: text-top;
+    font-size: 15px;
+}
+
+
+
+.content {
+    font-size: medium;
+    height: 300px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
+}
+.con-bg {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    background-color: #64627A;
+    font-weight: 400;
+    width: 90%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 43px;
+}
+
+
+.work {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 100%;
+    text-align: center;
+    font-weight: 400;
+    width: 90%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: medium solid rgba(255,255,255,1.00);
+    padding-top: 16px;
+}
+
+.picture {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.control-size {
+    width: 73%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-size {
+    width: 100%;
+    height: auto;
+}
+.mov {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-size {
+    width: 40%;
+    height: 20%;
+}
+.caro-size {
+    width: 80%;
+}
+a {
+    color: rgba(0,0,0,1.00);
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(0,0,0,1.00);
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 768px){
+.board-bg {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    background-color: #000000;
+    font-weight: 400;
+    width: 60%;
+    height: 30%;
+    opacity: 0.5;
+    z-index: 5;
+    position: absolute;
+    top: 1px;
+    margin-top: 25%;
+    margin-left: 10%;
+    padding-bottom: 0px;
+    padding-top: 0%;
+}
+.bg-line {
+    width: 120%;
+    margin-right: auto;
+    margin-left: 5%;
+    margin-bottom: auto;
+    height: 80%;
+    border: medium solid rgba(255,255,255,1.00);
+    position: absolute;
+    top: 1px;
+    margin-top: 7.5%;
+}
+.tilte-word {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    font-weight: 400;
+    width: 46%;
+    height: 30%;
+    z-index: 5;
+    position: absolute;
+    top: 1px;
+    margin-top: 25%;
+    margin-left: 10%;
+    padding-bottom: 0px;
+    padding-top: 4%;
+}
+.b1-word {
+    color: rgba(255,255,255,1.00);
+    font-family: "華康粗黑體";
+    font-size: small;
+    text-align: left;
+    margin-left: 47px;
+    letter-spacing: 6px;
+    width: 100%;
+    height: auto;
+    margin-top: 17px;
+}
+.b2-word {
+    color: rgba(255,255,255,1.00);
+    font-family: "華康粗黑體";
+    font-size: 80%;
+    text-align: left;
+    margin-left: 46px;
+    letter-spacing: 5px;
+    margin-top: -8px;
+    width: 100%;
+    height: auto;
+}
+.b3-word {
+    color: rgba(255,255,255,1.00);
+    font-family: "華康細黑體";
+    font-size: large;
+    text-align: left;
+    margin-left: 46px;
+}
+.work {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 90%;
+    text-align: center;
+    background-color: #505050;
+    font-weight: 400;
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -12px;
+    margin-bottom: auto;
+    border: thin solid rgba(255,255,255,1.00);
+    padding-top: 34px;
+}
+.con-bg {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    background-color: #505050;
+    font-weight: 400;
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 43px;
+}
+.control-size {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 1200px){
+.board-bg {
+	color: hsla(0,0%,100%,1.00);
+	font-family: "華康粗黑體";
+	font-size: 60px;
+	text-align: center;
+	background-color: #000000;
+	font-weight: 400;
+	width: 45%;
+	height: 40%;
+	opacity: 0.5;
+	z-index: 5;
+	position: absolute;
+	top: 63px;
+	margin-top: 21%;
+	margin-left: 10%;
+	padding-bottom: 0px;
+	padding-top: 0%;
+	max-width: 939px;
+	left: 10px;
+}
+.bg-line {
+    width: 120%;
+    margin-right: auto;
+    margin-left: 4.5%;
+    margin-bottom: auto;
+    height: 80%;
+    border: medium solid rgba(255,255,255,1.00);
+    position: absolute;
+    top: 1px;
+    margin-top: 5%;
+}
+.tilte-word {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    font-weight: 400;
+    width: 35%;
+    height: 30%;
+    z-index: 5;
+    position: absolute;
+    top: 1px;
+    margin-top: 25%;
+    margin-left: 10%;
+    padding-bottom: 0px;
+    padding-top: 4%;
+    max-width: 939px;
+}
+.b1-word {
+	color: rgba(255,255,255,1.00);
+	font-family: "華康粗黑體";
+	font-size: small;
+	text-align: left;
+	margin-left: 72px;
+	letter-spacing: 6px;
+	width: 100%;
+	height: auto;
+	margin-top: 18px;
+}
+.b2-word {
+	color: rgba(255,255,255,1.00);
+	font-family: "華康粗黑體";
+	font-size: 85%;
+	text-align: left;
+	margin-left: 177px;
+	letter-spacing: 5px;
+	margin-top: -3px;
+	width: 100%;
+	height: auto;
+}
+.b3-word {
+    color: rgba(255,255,255,1.00);
+    font-family: "華康細黑體";
+    font-size: large;
+    text-align: left;
+    margin-left: 70px;
+}
+.work {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 100%;
+    text-align: center;
+    font-weight: 400;
+    width: 90%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: medium solid rgba(255,255,255,1.00);
+    padding-top: 16px;
+    max-width: 1200px;
+}
+.con-bg {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    background-color: #606078;
+    font-weight: 400;
+    width: 65%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 43px;
+    max-width: 1135px;
+}
+.control-size {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+.board-bg {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    background-color: #000000;
+    font-weight: 400;
+    width: 50%;
+    height: 30%;
+    opacity: 0.5;
+    z-index: 5;
+    position: absolute;
+    top: 1px;
+    margin-top: 25%;
+    margin-left: 10%;
+    padding-bottom: 0px;
+    padding-top: 0%;
+}
+.bg-line {
+    width: 125%;
+    margin-right: auto;
+    margin-left: 4.5%;
+    margin-bottom: auto;
+    height: 85%;
+    border: medium solid rgba(255,255,255,1.00);
+    position: absolute;
+    top: 1px;
+    margin-top: 4%;
+}
+.tilte-word {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    font-weight: 400;
+    width: 37%;
+    height: 30%;
+    z-index: 5;
+    position: absolute;
+    top: 1px;
+    margin-top: 25%;
+    margin-left: 10%;
+    padding-bottom: 0px;
+    padding-top: 4%;
+}
+.b1-word {
+    color: rgba(255,255,255,1.00);
+    font-family: "華康粗黑體";
+    font-size: small;
+    text-align: left;
+    margin-left: 51px;
+    letter-spacing: 6px;
+    width: 100%;
+    height: auto;
+    margin-top: -6px;
+}
+.b2-word {
+    color: rgba(255,255,255,1.00);
+    font-family: "華康粗黑體";
+    font-size: 85%;
+    text-align: left;
+    margin-left: 50px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.b3-word {
+    color: rgba(255,255,255,1.00);
+    font-family: "華康細黑體";
+    font-size: large;
+    text-align: left;
+    margin-left: 50px;
+}
+.work {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 100%;
+    text-align: center;
+    background-color: #505050;
+    font-weight: 400;
+    width: 90%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: thin solid rgba(255,255,255,1.00);
+    padding-top: 16px;
+}
+.con-bg {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    background-color: #505050;
+    font-weight: 400;
+    width: 76%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 43px;
+}
+.control-size {
+    width: 76%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width: 575px){
+.board-bg {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    background-color: #000000;
+    font-weight: 400;
+    width: 70%;
+    height: 30%;
+    opacity: 0.5;
+    z-index: 5;
+    position: absolute;
+    top: 1px;
+    margin-top: 25%;
+    margin-left: 10%;
+    padding-bottom: 0px;
+    padding-top: 0%;
+}
+.bg-line {
+    width: 115%;
+    margin-right: auto;
+    margin-left: 7%;
+    margin-bottom: auto;
+    height: 80%;
+    border: medium solid rgba(255,255,255,1.00);
+    position: absolute;
+    top: 1px;
+    margin-top: 7%;
+}
+.tilte-word {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    font-weight: 400;
+    width: 54%;
+    height: 30%;
+    z-index: 5;
+    position: absolute;
+    top: 1px;
+    margin-top: 25%;
+    margin-left: 10%;
+    padding-bottom: 0px;
+    padding-top: 5%;
+}
+.b1-word {
+    color: rgba(255,255,255,1.00);
+    font-family: "華康粗黑體";
+    font-size: 5%;
+    text-align: left;
+    margin-left: 47px;
+    letter-spacing: 6px;
+    width: 100%;
+    height: auto;
+    margin-top: 17px;
+}
+.b2-word {
+    color: rgba(255,255,255,1.00);
+    font-family: "華康粗黑體";
+    font-size: 72%;
+    text-align: left;
+    margin-left: 46px;
+    letter-spacing: 5px;
+    width: 100%;
+    height: auto;
+    margin-top: 12px;
+}
+.b3-word {
+    color: rgba(255,255,255,1.00);
+    font-family: "華康細黑體";
+    font-size: large;
+    text-align: left;
+    margin-left: 46px;
+}
+.work {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 80%;
+    text-align: center;
+    background-color: #505050;
+    font-weight: 400;
+    width: 80%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -13px;
+    margin-bottom: auto;
+    border: thin solid rgba(255,255,255,1.00);
+    padding-top: 36px;
+}
+.con-bg {
+    color: hsla(0,0%,100%,1.00);
+    font-family: "華康粗黑體";
+    font-size: 60px;
+    text-align: center;
+    background-color: #505050;
+    font-weight: 400;
+    width: 90%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 43px;
+}
+.control-size {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+}
+.point-word {
+    font-weight: bold;
+}
+.M1 {
+    background-color: #5B5877;
+    color: hsla(0,0%,100%,1.00);
+}
